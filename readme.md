@@ -28,8 +28,8 @@
 
 1. 実行したいプログラムが格納されたROMを選択(MY8CPU.v)(新たなROMを作って加えることもできます)
     ```verilog
-    // ROM_A ROM_A_01(.address(PC_out), .data(rom_data));   // フィボナッチ数列プログラム
-    ROM_B ROM_B_01(.address(PC_out), .data(rom_data));      // テニスゲームのプログラム
+    ROM_A ROM_A_01(.address(PC_out), .data(rom_data));   // フィボナッチ数列プログラム
+    // ROM_B ROM_B_01(.address(PC_out), .data(rom_data));      // テニスゲームのプログラム
     ```
 
 2. iverilogでコンパイル
