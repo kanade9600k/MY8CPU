@@ -43,7 +43,7 @@ Program_counter Program_counter_01(.IN(ALU_out), .OUT(PC_out), .clock(clock), .n
 
 Decoder Decoder_01(.op(rom_data[15:8]), .C_frag(Flag_reg_out), .select_A_mux(Dec_muxA_out), .select_B_mux(Dec_muxB_out), .select_ALU(Dec_ALU_out), .load(load));
 
-// ROM_A ROM_A_01(.address(PC_out), .data(rom_data));
-ROM_B ROM_B_01(.address(PC_out), .data(rom_data));
+ROM_A ROM_A_01(.address(PC_out), .data(rom_data));   // フィボナッチ数列プログラム
+// ROM_B ROM_B_01(.address(PC_out), .data(rom_data));      // テニスゲームのプログラム
 
 endmodule
