@@ -17,10 +17,12 @@
 * ブロック図は以下の通り
 ![CPU](img/cpu.png)
 
-* ドキュメントは[こちら](https://docs.google.com/document/d/1bsrWHXSSPE41QqXC7vMVIFSoAvNt-4l-x2_u8mgAE-I/edit)にあります
-
 * 実際にフィボナッチ数列の計算を行っている様子
 ![fib](img/fib.jpg)
+
+## ドキュメント
+
+ドキュメントは[こちら](https://docs.google.com/document/d/1bsrWHXSSPE41QqXC7vMVIFSoAvNt-4l-x2_u8mgAE-I/edit)にあります（自分用に書いたのであまりきれいではない）
 
 ## シミュレーション方法
 
